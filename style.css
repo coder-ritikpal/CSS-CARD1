@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cardcontainer{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(102, 231, 102);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width:50%;
+    height: 80%;
+    background-color: #fff;
+    position: relative;
+    border-radius: 20px;
+    display:flex;
+    position: relative;
+}
+
+#leftside{
+    position: relative;
+    right: 100px;
+    width: 50%;
+    height: 80%;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(0, 255, 0, 0.785);     */
+    border-radius: 20px;
+    box-shadow: 20px 10px 80px black;
+}
+
+#leftside:hover{
+    transform: scale(1.1);
+}
+#leftside .logo{
+     display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 255, 0, 0.785);
+    
+}
+#leftside .logo img{
+    width: 50px;
+    height: 30px;
+    border-radius: 20px;
+    mix-blend-mode:lighten;
+
+   
+}
+#leftside .appleimg{
+   background-color: rgba(0, 255, 0, 0.785);
+    column-gap: 10px;
+}
+.appleimg img{
+    width:300px;
+    height:280px;
+    border-radius: 20px;
+    position: relative;
+    right: 100px;
+}
+.smallimg{
+    display: flex;
+    justify-content:center;
+    gap:10px;
+    border-radius: 20px;;
+    background-color: white;
+}
+.smallimg img{
+    width:45px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border:2px solid black;
+}
+
+#rightside{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    position:relative ;
+}
+
+#rightside .heading{
+    display: flex;
+    height: 20px;
+    position:relative ;
+    right:80px;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+#price{
+    position:relative ;
+    color: red;
+    right: 80px ;
+    margin: 15px;
+}
+#price span{
+    font-size: 50px;
+}
+#rightside .colors img{
+    width:30px;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+#colorselection p{
+    position: relative;
+    right:80px;
+    color: rgb(128, 128, 128);
+}
+
+#rightside .colors{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    right:80px;
+    margin:10px;
+}
+#rightside .benefits{
+    position: relative;
+    right:80px;
+    margin-bottom: 30px;
+}
+#rightside .benefits h3{
+    color: gray;
+}
+ .button button{
+    position: relative;
+    right:80px;
+    border-radius: 10px;;
+    height:45px;
+    width: 130px;
+    background-color: red;
+    color: white;
+     /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(224, 33, 33, 0.19); */
+     box-shadow: 2px 1px 100px black, -1px -1px 100px white ;
+    
+}
+
+button:hover{
+    transform: scale(1.3);
+}
